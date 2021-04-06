@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Alchemist's Todo</title>
+  </head>
+  <body>
+    <h1>Alchemist's</h1>
+    <h2>Todo</h2>
+    <form>
+      <input type="text" class="todo-input" />
+      <button class="todo-button" type="submit">
+        <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+        <i class="fa fa-plus-square" aria-hidden="true"></i>
+      </button>
+    </form>
+    <div class="select">
+      <button class="all">All</button>
+      <button class="complete">Completed</button>
+      <button class="uncomplete">Uncompleted</button>
+    </div>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
